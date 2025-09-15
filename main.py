@@ -22,6 +22,8 @@ ball = Ball()
 scoreboard = Scorebaord()
 scoreboard.updatescore()
 gameon = True
+
+#game starts here
 while gameon:
     time.sleep(0.1)
     screen.update()
